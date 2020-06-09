@@ -73,5 +73,4 @@ actionApplyer(13, arrayOfTransforms);
   }
   let result = [Calculator.add(1,3), Calculator.subtract(1,3), Calculator.multiply(1,3), Calculator.divide(10,5)];
  console.log(result);
-=======
->>>>>>> fac0cddaa68824560ee62aaca82fa471b6ef7fc2
+
