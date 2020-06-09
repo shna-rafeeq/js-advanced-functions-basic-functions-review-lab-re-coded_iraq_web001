@@ -1,4 +1,3 @@
-// Your code here
 function saturdayFun(activity = 'roller-skate'){
  const thingsTodo = `This Saturday, I want to ${activity}!`;
  return thingsTodo;
@@ -19,27 +18,6 @@ function wrapAdjective(vflair = "*"){
 }
 wrapAdjective("%")("a hard worker")
 
-  
-  let Calculator = {
-    add: (x,y) => {
-      return x + y
-    },
-    subtract: (x,y) => {
-      return x - y
-    },
-    multiply: (x,y) => {
-      return x * y
-    },
-    devide: (x,y) => {
-      return x / y
-    }
-  }
-  let result = [Calculator.add(1,3),Calculator.subtract(1,3),Calculator.multiply(1,3),Calculator.devide(10,5)];
- console.log(rresult);
-// } 
-// test();
-
-
 
 let arrayOfTransforms = [
           function(a){ return a * 2 },
@@ -55,7 +33,6 @@ function actionApplyer(start = 0,arr = []){
   return start;
 }
 actionApplyer(13, arrayOfTransforms);
-
 
   let Calculator = {
     add: (x,y) => {
@@ -73,4 +50,3 @@ actionApplyer(13, arrayOfTransforms);
   }
   let result = [Calculator.add(1,3), Calculator.subtract(1,3), Calculator.multiply(1,3), Calculator.divide(10,5)];
  console.log(result);
-
