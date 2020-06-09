@@ -19,8 +19,6 @@ function wrapAdjective(vflair = "*"){
 }
 wrapAdjective("%")("a hard worker")
 
-
-// function est(){
   
   let Calculator = {
     add: (x,y) => {
